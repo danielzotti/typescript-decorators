@@ -5,6 +5,6 @@ import { PizzaMargherita } from './PizzaMargherita';
 export class PizzaHam extends PizzaMargherita {
   constructor() {
     super('ham');
-    (this as any).ingredients.push('ham')
+    this.name = 'ham';
   }
 }
